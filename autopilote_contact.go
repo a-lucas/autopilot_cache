@@ -35,6 +35,7 @@ func (ap *APContacts) Create(contact *Contact) (*Contact, error) {
 	}
 }
 
+
 func (ap *APContacts) Delete(contact *Contact)  error {
 	_, err := ap.autopilotClient.Delete("https://api2.autopilothq.com/v1/contact/" + contact.ContactId)
 	return err

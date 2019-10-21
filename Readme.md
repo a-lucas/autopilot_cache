@@ -8,11 +8,25 @@ All implementation share the same testing functions for consistency.
 To use on your machine, you will need to populate the two constants in the `constants.go` file.
 
 
-TODO: 
+**How to:*** 
+
+```bash
+// Setup the Api Key in constants.go 
+
+// cd server
+
+go get
+go run server.go
+
+```
+
+
+
+**TODO:** 
 
 - Logging
 - Better error handling in the MiddleWare delete
 - A bit more coverage - 80% would be nice (Currently 74%)
-
+- Benchmarks
 
 
